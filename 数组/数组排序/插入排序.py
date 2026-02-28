@@ -72,9 +72,9 @@ for i in range(len(test)):
 
     #内层循环遍历有序区间元素并实现大小比较
     while j > 0 and test[j - 1] > temp:
-        test[i] = test[j - 1]
+        test[j] = test[j - 1]
         j -= 1
-        test[j] = temp
+    test[j] = temp
 
 print(test)        
 
