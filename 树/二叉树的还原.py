@@ -15,7 +15,7 @@
 
 
 #前序与中序遍历重建二叉树
-class Solution:
+class Solution_1:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         """
         根据前序遍历和中序遍历序列重建二叉树
@@ -57,7 +57,7 @@ class Solution:
 
 
 #中序与后序遍历
-class Solution:
+class Solution_2:
     def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
         """
         根据中序遍历和后序遍历序列重建二叉树
@@ -106,7 +106,7 @@ class Solution:
     
 
 #前序与后序（无法唯一确定一棵二叉树）
-class Solution:
+class Solution_3:
     def constructFromPrePost(self, preorder: List[int], postorder: List[int]) -> TreeNode:
         """
         根据前序和后序遍历序列构造二叉树（不唯一）
